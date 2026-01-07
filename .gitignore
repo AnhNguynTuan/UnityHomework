@@ -3,3 +3,7 @@ Temp
 Logs
 Library
 HomeworkUnity2D.sln
+*.csproj
+*.sln
+obj
+.vs
