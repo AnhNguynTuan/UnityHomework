@@ -9,11 +9,11 @@ public class InputHandler : MonoBehaviour
     public KeyCode LeftKey;
     public KeyCode RightKey;
     public KeyCode JumpKey;
-    public KeyCode CrouchKey;
+
     public KeyCode StrikeKey;
     public KeyCode AttackKey;
     public bool jumpPressed;
-    public bool crouchPressed;
+
     public bool strikePressed;
     public bool leftKeyPressed;
     public bool rightKeyPressed;
@@ -30,7 +30,7 @@ public class InputHandler : MonoBehaviour
         if(Input.GetKey(LeftKey)) leftKeyPressed = true;
         if(Input.GetKey(RightKey)) rightKeyPressed = true;
         if(Input.GetKey(JumpKey)) jumpPressed = true;
-        if(Input.GetKey(CrouchKey)) crouchPressed = true;
+        
         if(Input.GetKey(StrikeKey)) strikePressed = true;
         if(Input.GetKey(AttackKey)) attackPressed = true;
     }
