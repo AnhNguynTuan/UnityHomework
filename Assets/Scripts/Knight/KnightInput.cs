@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class KnightInput : InputHandler
 {
-    public KeyCode BlockKey;
+    protected KeyCode BlockKey;
     public KeyCode DashKey;
     public KeyCode CastKey;
     public bool isBlock;

@@ -1,12 +1,15 @@
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Windows;
 
 public class PlayerMovement : MonoBehaviour
 {
     public InputHandler inputHandler;
     public float speed;
+    public float jumpForce;
     public Rigidbody2D rb;
+    public bool isGround;
     private void Awake()
     {
         inputHandler = GetComponent<InputHandler>();
@@ -14,15 +17,38 @@ public class PlayerMovement : MonoBehaviour
     }
     private void Update()
     {
-        Facing(inputHandler.facingInput);
-        Move(inputHandler.moveX);
+        Flip();
+        Move();
+        Jump();
     }
-    public void Facing(int facing)
+    private void OnCollisionEnter2D(Collision2D collision)
     {
-        transform.localScale = new Vector3(facing, 1, 1);
+        if(collision.gameObject.tag == "Ground")
+        {
+            isGround = true;
+        }else isGround = false;
     }
-    public void Move(int moveX)
+    public void Flip()
     {
-            rb.velocity = new Vector2(moveX, rb.velocity.y);
+        if (inputHandler.rightKeyPressed)
+        {
+            transform.localScale = Vector3.one;
+        }
+        else if (inputHandler.leftKeyPressed)
+        {
+            transform.localScale = new Vector3(-1,1,1);
+        }
     }
+    public void Move()
+    {
+        rb.velocity = new Vector2(inputHandler.moveX, rb.velocity.y);
+    }
+    public void Jump()
+    {
+        if (inputHandler.jumpPressed)
+        {
+            rb.AddForce(Vector3.up * jumpForce, ForceMode2D.Impulse);
+        }
+    }
+    
 }

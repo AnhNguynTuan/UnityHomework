@@ -12,7 +12,10 @@ GameObject:
   - component: {fileID: 5666523322033744489}
   - component: {fileID: 4210819890525089672}
   - component: {fileID: 7621698850869923302}
-  - component: {fileID: 908255047447141824}
+  - component: {fileID: -6001495359384678987}
+  - component: {fileID: 8791519506163892595}
+  - component: {fileID: 7945880493300838416}
+  - component: {fileID: 1552393159996207418}
   m_Layer: 0
   m_Name: Dragon
   m_TagString: Untagged
@@ -133,9 +136,64 @@ Rigidbody2D:
     m_Bits: 0
   m_Interpolate: 0
   m_SleepingMode: 1
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
   m_Constraints: 0
---- !u!60 &908255047447141824
+--- !u!114 &-6001495359384678987
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2712546628149513883}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d1de237395017ab47ac66a98382dfeab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveX: 0
+  LeftKey: 97
+  RightKey: 100
+  JumpKey: 32
+  StrikeKey: 106
+  AttackKey: 107
+  jumpPressed: 0
+  strikePressed: 0
+  leftKeyPressed: 0
+  rightKeyPressed: 0
+  attackPressed: 0
+--- !u!114 &8791519506163892595
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2712546628149513883}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df1488ef169828b4e8fea9896387ab96, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  inputHandler: {fileID: 0}
+  speed: 2
+  jumpForce: 3
+  rb: {fileID: 0}
+  isGround: 0
+--- !u!114 &7945880493300838416
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2712546628149513883}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07405aafac4598949a8c9e9c4ca17d96, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  inputHandler: {fileID: 0}
+  animator: {fileID: 0}
+  playerMovement: {fileID: 0}
+--- !u!60 &1552393159996207418
 PolygonCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

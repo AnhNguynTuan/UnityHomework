@@ -1,19 +1,17 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UIElements.Experimental;
 
 public class InputHandler : MonoBehaviour
 {
-    public int moveX;
-    public int facingInput;
+    public float moveX;
     public KeyCode LeftKey;
     public KeyCode RightKey;
     public KeyCode JumpKey;
-
     public KeyCode StrikeKey;
     public KeyCode AttackKey;
     public bool jumpPressed;
-
     public bool strikePressed;
     public bool leftKeyPressed;
     public bool rightKeyPressed;
@@ -22,27 +20,20 @@ public class InputHandler : MonoBehaviour
     private void Update()
     {
         ReadActions();
-        ReadFacing();
         ReadMovement();
     }
     public virtual void ReadActions()
     {
-        if(Input.GetKey(LeftKey)) leftKeyPressed = true;
-        if(Input.GetKey(RightKey)) rightKeyPressed = true;
-        if(Input.GetKey(JumpKey)) jumpPressed = true;
-        
-        if(Input.GetKey(StrikeKey)) strikePressed = true;
-        if(Input.GetKey(AttackKey)) attackPressed = true;
-    }
-
-    public void ReadFacing()
-    {
-        if(moveX != 0) facingInput = moveX;
+        leftKeyPressed = Input.GetKey(LeftKey);
+        rightKeyPressed = Input.GetKey(RightKey);
+        jumpPressed = Input.GetKeyDown(JumpKey);
+        strikePressed = Input.GetKeyDown(StrikeKey);
+        attackPressed = Input.GetKeyDown(AttackKey);
     }
     public void ReadMovement()
     {
-        if (leftKeyPressed) moveX = -1;
-        else if (rightKeyPressed) moveX = 1;
-        else moveX = 0;
+        if (leftKeyPressed) moveX = -1f;
+        else if (rightKeyPressed) moveX = 1f;
+        else moveX = 0f;
     }
 }
