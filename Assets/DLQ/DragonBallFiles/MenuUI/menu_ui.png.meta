@@ -101,9 +101,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 611
+        y: 619
         width: 356
-        height: 136
+        height: 128
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -292,7 +292,7 @@ TextureImporter:
         x: 480
         y: 664
         width: 57
-        height: 53
+        height: 22
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -604,10 +604,10 @@ TextureImporter:
       name: menu_ui_24
       rect:
         serializedVersion: 2
-        x: 900
-        y: 551
-        width: 117
-        height: 110
+        x: 903
+        y: 553
+        width: 61
+        height: 59
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -691,7 +691,7 @@ TextureImporter:
         x: 194
         y: 498
         width: 270
-        height: 106
+        height: 101
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1210,27 +1210,6 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: menu_ui_53
-      rect:
-        serializedVersion: 2
-        x: 695
-        y: 333
-        width: 15
-        height: 6
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 43da18fc54d6325488a60335b8882f6e
-      internalID: 1588835882
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: menu_ui_54
       rect:
         serializedVersion: 2
@@ -1303,7 +1282,7 @@ TextureImporter:
         height: 49
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      border: {x: 16, y: 0, z: 16, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -1320,8 +1299,8 @@ TextureImporter:
         serializedVersion: 2
         x: 338
         y: 137
-        width: 409
-        height: 196
+        width: 271
+        height: 103
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1466,9 +1445,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 841
-        y: 165
-        width: 43
-        height: 38
+        y: 164
+        width: 39
+        height: 40
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1630,54 +1609,12 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: menu_ui_73
-      rect:
-        serializedVersion: 2
-        x: 338
-        y: 72
-        width: 9
-        height: 9
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2d7b8edcbaa12c341a6a2ffb8289fd64
-      internalID: -1181860588
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: menu_ui_74
-      rect:
-        serializedVersion: 2
-        x: 350
-        y: 72
-        width: 15
-        height: 12
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: bab7bf09ede45774593155f499fea794
-      internalID: 852992401
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: menu_ui_75
       rect:
         serializedVersion: 2
-        x: 368
+        x: 338
         y: 0
-        width: 243
+        width: 273
         height: 135
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -1793,6 +1730,27 @@ TextureImporter:
       bones: []
       spriteID: f49f260fded7b9246af8819d7a662ba5
       internalID: -149872681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: menu_ui_53
+      rect:
+        serializedVersion: 2
+        x: 964
+        y: 552
+        width: 54
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99d64b679b1096c44bb2cf79078cade7
+      internalID: 1588835882
       vertices: []
       indices: 
       edges: []

@@ -227,9 +227,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 232
-        y: 752
+        y: 764
         width: 199
-        height: 200
+        height: 188
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -269,9 +269,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 264
-        y: 208
+        y: 211
         width: 53
-        height: 80
+        height: 77
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -312,7 +312,7 @@ TextureImporter:
         serializedVersion: 2
         x: 263
         y: 0
-        width: 120
+        width: 121
         height: 106
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -331,12 +331,12 @@ TextureImporter:
       name: lucky_wheel_11
       rect:
         serializedVersion: 2
-        x: 40
+        x: 41
         y: 981
-        width: 26
+        width: 25
         height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []

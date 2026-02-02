@@ -1,11 +1,9 @@
 fileFormatVersion: 2
 guid: c547334a47e29d7489f55ed8ce837daf
-timeCreated: 1754168509
-licenseType: Free
 TextureImporter:
-  serializedVersion: 12
   internalIDToNameTable: []
   externalObjects: {}
+  serializedVersion: 13
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -22,11 +20,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
-  ignoreMasterTextureLimit: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -65,6 +64,7 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
   cookieLightType: 0
   platformSettings:
   - serializedVersion: 3
@@ -77,48 +77,711 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Namek_atlas_0
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 946
+        width: 147
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a7e7f00160ac6c4bba07c50e3064ba8
+      internalID: -462924435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Namek_atlas_1
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 946
+        width: 73
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54ccbf5907aa0ca4999e0017a797c3e4
+      internalID: -382016978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Namek_atlas_4
+      rect:
+        serializedVersion: 2
+        x: 742
+        y: 944
+        width: 33
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb603e31abe9e5f43bc455573f892bf2
+      internalID: -1226133255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Namek_atlas_8
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 946
+        width: 108
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9689365aa9adfc241ac2ec8de17e036c
+      internalID: 1443427748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Namek_atlas_9
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 930
+        width: 95
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bcb986d0240e4b48858fcc0cf771b39
+      internalID: 2000212935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Namek_atlas_10
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 947
+        width: 257
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2ac13fe25ef08f4da99946c292de1f3
+      internalID: -1682587176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Namek_atlas_12
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 906
+        width: 29
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4177d89157a96c34a9c5f21715f34738
+      internalID: -515254614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Namek_atlas_13
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 926
+        width: 28
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3460df8fe476bf245853524cd2a1997f
+      internalID: -1120126339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Namek_atlas_14
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 794
+        width: 133
+        height: 151
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f60a9f598fc824046b084ad537174f51
+      internalID: -1973368858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Namek_atlas_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 859
+        width: 255
+        height: 83
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d7eafdc731307f4c952aca0e0435adf
+      internalID: -1789484869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Namek_atlas_17
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 928
+        width: 34
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdb29936d96311a4a8a14d19d4baa5c8
+      internalID: -517872058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Namek_atlas_18
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 922
+        width: 30
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6a46c5238910244cbb3cf57b96b258a
+      internalID: -114960634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Namek_atlas_20
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 920
+        width: 254
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 537952257db786d40bab8ec7f87ea285
+      internalID: -1311018743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Namek_atlas_21
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 794
+        width: 188
+        height: 111
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b46d8c7e50794a1459ccd8243cf02d34
+      internalID: -303286744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Namek_atlas_22
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 904
+        width: 28
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a81c3a3bca1d2a442be3f1470c959707
+      internalID: -1084479020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Namek_atlas_23
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 906
+        width: 25
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fb9a16b5d3506645b2eb14987796fe3
+      internalID: 2072321174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Namek_atlas_27
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 794
+        width: 134
+        height: 126
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35699d36415d5074fba8f6a57c7e85c1
+      internalID: 1463705823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Namek_atlas_28
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 704
+        width: 156
+        height: 154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1a2b0597b512204da167a19e0ce70b1
+      internalID: -810047202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Namek_atlas_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 817
+        width: 251
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2d5b271b474c324388d421ab594705a
+      internalID: -1289894651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Namek_atlas_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 796
+        width: 251
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96ec0dc203853cd42a3510d0dcd00c16
+      internalID: -1807288598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Namek_atlas_38
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 583
+        width: 851
+        height: 118
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9f157a1a9037e441a27b4b9584186d7
+      internalID: -1586786346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Namek_atlas_39
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 703
+        width: 770
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec442bf7a61664b49a023fb43df461c9
+      internalID: 1470066002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Namek_atlas_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 453
+        height: 582
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c2592d3e57b5a942a56d385786e5fd1
+      internalID: -354098133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Namek_atlas_42
+      rect:
+        serializedVersion: 2
+        x: 925
+        y: 1
+        width: 93
+        height: 211
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 184496fc88ef7c041ae92a5ea50b8cb5
+      internalID: -1176983238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Namek_atlas_2
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 926
+        width: 30
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45ba60a3d2e673a4b8e0c6d5e9c288f2
+      internalID: -728400808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Namek_atlas_3
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 906
+        width: 34
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d2ffa7fcc3d0a04e892d08d4d3c15a1
+      internalID: -2005118039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Namek_atlas_5
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 906
+        width: 28
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86649c5489c2b8e4c9019ffa4460e359
+      internalID: 313995736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Namek_atlas_6
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 833
+        width: 28
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a44be8c2ffa33df438941fb5173d15ba
+      internalID: 900795427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Namek_atlas_7
+      rect:
+        serializedVersion: 2
+        x: 739
+        y: 833
+        width: 29
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0c93b5d857f3c54287f869f6bcad8a0
+      internalID: -460558705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Namek_atlas_11
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 861
+        width: 117
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b2b3ff447e476646ad1960483265fe9
+      internalID: 1858885511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID:
+    spriteID: c148821c0e843ac4981879b792de823b
     internalID: 0
     vertices: []
-    indices:
+    indices: 
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
-  spritePackingTag:
-  output:
-    textureImportInstructions:
-      compressedFormat: 0
-      uncompressedFormat: 0
-      desiredFormat: 0
-      usageMode: 0
-      colorSpace: 0
-      androidETC2FallbackFormat: 0
-      width: 0
-      height: 0
-      depth: 0
-      cubeIntermediateSize: 0
-      cubeMode: 0
-      cubeLayout: 0
-      compressionQuality: 0
-      androidETC2FallbackDownscale: 0
-      vtOnly: 0
-    sourceTextureInformation:
-      width: 0
-      height: 0
-      doesTextureContainAlpha: 0
-      sourceWasHDR: 0
-    importInspectorWarnings:
+    nameFileIdTable:
+      Namek_atlas_0: -462924435
+      Namek_atlas_1: -382016978
+      Namek_atlas_10: -1682587176
+      Namek_atlas_11: 1858885511
+      Namek_atlas_12: -515254614
+      Namek_atlas_13: -1120126339
+      Namek_atlas_14: -1973368858
+      Namek_atlas_15: 168566594
+      Namek_atlas_16: -1789484869
+      Namek_atlas_17: -517872058
+      Namek_atlas_18: -114960634
+      Namek_atlas_19: -1490114595
+      Namek_atlas_2: -728400808
+      Namek_atlas_20: -1311018743
+      Namek_atlas_21: -303286744
+      Namek_atlas_22: -1084479020
+      Namek_atlas_23: 2072321174
+      Namek_atlas_24: -852362212
+      Namek_atlas_25: -1371791431
+      Namek_atlas_26: -1486806777
+      Namek_atlas_27: 1463705823
+      Namek_atlas_28: -810047202
+      Namek_atlas_29: 800325363
+      Namek_atlas_3: -2005118039
+      Namek_atlas_30: -1289894651
+      Namek_atlas_31: 560605054
+      Namek_atlas_32: 1783155969
+      Namek_atlas_33: 341740558
+      Namek_atlas_34: 1626730505
+      Namek_atlas_35: -1807288598
+      Namek_atlas_36: 675706801
+      Namek_atlas_37: -504666487
+      Namek_atlas_38: -1586786346
+      Namek_atlas_39: 1470066002
+      Namek_atlas_4: -1226133255
+      Namek_atlas_40: -354098133
+      Namek_atlas_41: -126884305
+      Namek_atlas_42: -1176983238
+      Namek_atlas_5: 313995736
+      Namek_atlas_6: 900795427
+      Namek_atlas_7: -460558705
+      Namek_atlas_8: 1443427748
+      Namek_atlas_9: 2000212935
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
-  userData:
-  assetBundleName:
-  assetBundleVariant:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
