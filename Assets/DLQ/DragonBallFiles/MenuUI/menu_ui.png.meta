@@ -93,6 +93,19 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -249,11 +262,11 @@ TextureImporter:
         serializedVersion: 2
         x: 359
         y: 664
-        width: 61
-        height: 39
+        width: 59
+        height: 33
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      border: {x: 16, y: 0, z: 16, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -442,7 +455,7 @@ TextureImporter:
         height: 58
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      border: {x: 16, y: 16, z: 16, w: 16}
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -559,34 +572,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: menu_ui_22
-      rect:
-        serializedVersion: 2
-        x: 862
-        y: 660
-        width: 10
-        height: 4
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8a98fb956cd4b884d967e51446a46c1c
-      internalID: 1381322123
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: menu_ui_23
       rect:
         serializedVersion: 2
-        x: 873
+        x: 872
         y: 614
-        width: 56
-        height: 50
+        width: 57
+        height: 51
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -610,7 +602,7 @@ TextureImporter:
         height: 59
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      border: {x: 19, y: 23, z: 19, w: 23}
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -757,7 +749,7 @@ TextureImporter:
         height: 61
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      border: {x: 16, y: 17, z: 16, w: 17}
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -774,11 +766,11 @@ TextureImporter:
         serializedVersion: 2
         x: 746
         y: 570
-        width: 62
+        width: 60
         height: 61
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      border: {x: 16, y: 17, z: 16, w: 17}
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -1282,7 +1274,7 @@ TextureImporter:
         height: 49
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 16, y: 0, z: 16, w: 0}
+      border: {x: 16, y: 16, z: 16, w: 16}
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -1381,10 +1373,10 @@ TextureImporter:
       name: menu_ui_62
       rect:
         serializedVersion: 2
-        x: 968
+        x: 970
         y: 195
-        width: 56
-        height: 46
+        width: 54
+        height: 40
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1743,7 +1735,7 @@ TextureImporter:
         width: 54
         height: 54
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
