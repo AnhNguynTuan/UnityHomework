@@ -36,6 +36,7 @@ public class PlayerAnimator : MonoBehaviour
     public void Jump()
     {
         if (inputHandler.jumpPressed && playerMovement.isGround) animator.SetTrigger("Jump");
+
     }
     public void Strike()
     {
